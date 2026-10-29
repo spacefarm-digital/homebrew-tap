@@ -2,7 +2,7 @@
 # scripts/release.sh fills in the version and checksum and writes the result to build/release/sunlight.rb.
 cask "sunlight" do
   version "0.1"
-  sha256 "59e3f0890b7e9169f617d8c4e5b29049c27ca7736b6b0934b493292ea1dfff60"
+  sha256 "85334ae06ba1d77ff06b8522e491afb55f2f51ad7548ae3abec610fec8c1f254"
 
   url "https://github.com/spacefarm-digital/sunlight-releases/releases/download/v#{version}/Sunlight-#{version}.dmg"
   name "Sunlight"
