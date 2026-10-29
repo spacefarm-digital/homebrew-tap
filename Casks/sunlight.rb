@@ -1,8 +1,8 @@
 # The Homebrew cask, for the tap in packaging/release.conf (brew install spacefarm-digital/tap/sunlight).
 # scripts/release.sh fills in the version and checksum and writes the result to build/release/sunlight.rb.
 cask "sunlight" do
-  version "0.1.2"
-  sha256 "821d18c8a9b06b655ab8a7c2132a8782820233d49408a01c32f81a0bd6fcfb3a"
+  version "0.1.3"
+  sha256 "d9241f76ca837f370c94701898b584965f690aeec59fcdbf6f347faf58ee24e8"
 
   url "https://github.com/spacefarm-digital/sunlight-releases/releases/download/v#{version}/Sunlight-#{version}.dmg"
   name "Sunlight"
